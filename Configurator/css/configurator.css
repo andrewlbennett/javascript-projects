@@ -1,0 +1,22 @@
+.preview {
+    width: 500px;
+    height: 500px;
+    background-color: #333;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.patches {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.patches > .patch {
+    padding: 2px;
+    width: 100px;
+    height: 100px;
+}
+
+.patches>.patch:hover {
+    cursor: pointer;
+}

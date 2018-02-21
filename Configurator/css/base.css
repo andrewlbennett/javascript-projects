@@ -1,0 +1,64 @@
+/* Base */
+
+:root {
+    --primary-color: #f73c78;
+    --secondary-color: #443e74;
+    --third-color: #fece54;
+    --fourth-color: #46c7f8;
+    --fifth-color: #f78e3c;
+    --link-color: var(--primary-color);
+    --link-hover-color: var(--primary-color);
+    --info: hsl(204, 86%, 53%);
+    --success: hsl(141, 71%, 48%);
+    --warning: hsl(48, 100%, 67%);
+    --danger: hsl(348, 100%, 61%);
+    --text-muted: #bfbfbf;
+    --caption-color: var(--text-muted);
+    --light-tone: #666666 --mid-tone: #444444;
+    --dark-tone: #222222;
+    --transparent: transparent;
+    --font-family: 'Roboto';
+    --line-height: 1.5;
+    --font-color: black;
+    --border-color: black;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    font-smoothing: antialiased;
+    font-family: var(--font-family), -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    background-color: white;
+    color: var(--font-color);
+    transform: translateZ(0);
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    letter-spacing: 0.4px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body,
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: var(--line-height);
+    padding: 1rem;
+}
+
+img,
+iframe {
+    max-width: 100%;
+}
+
+img.responsive {
+    width: 100%;
+}
